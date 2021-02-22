@@ -1,0 +1,55 @@
+.mt {
+    margin-top: 50px;
+    @include mq(lg) {
+        margin-top: 30px;
+    }
+}
+
+.mb {
+    margin-bottom: 50px;
+    @include mq(lg) {
+        margin-bottom: 30px;
+    }
+}
+
+.pt {
+    padding-top: 50px;
+    @include mq(lg) {
+        padding-top: 30px;
+    }
+}
+
+.pb {
+    padding-bottom: 50px;
+    @include mq(lg) {
+        padding-bottom: 30px;
+    }
+}
+
+.mt-half {
+    margin-top: 25px;
+    @include mq(lg) {
+        margin-top: 15px;
+    }
+}
+
+.mb-half {
+    margin-bottom: 25px;
+    @include mq(lg) {
+        margin-bottom: 15px;
+    }
+}
+
+.pt-half {
+    padding-top: 25px;
+    @include mq(lg) {
+        padding-top: 15px;
+    }
+}
+
+.pb-half {
+    padding-bottom: 25px;
+    @include mq(lg) {
+        padding-bottom: 15px;
+    }
+}

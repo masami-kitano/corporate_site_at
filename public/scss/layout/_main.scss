@@ -1,0 +1,17 @@
+.l-main {
+    &__bg {
+        .swiper-slide {
+            img {
+                width: 100%;
+                height: 574px;
+                object-fit: cover;
+                object-position: 50% 70%;
+            }
+        }
+    }
+    &__copy {
+        z-index: 500;
+        max-width: 850px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,15 @@
+/*-------------------------
+ Theme Breakpoints
+---------------------------*/
+$breakpoints: (
+  'sm': 'screen and (max-width: 480px)',
+  'md': 'screen and (max-width: 768px)',
+  'lg': 'screen and (max-width: 1000px)',
+  'xl': 'screen and (max-width: 1200px)',
+) !default;
+
+/*-------------------------
+ Theme Color
+---------------------------*/
+$red: #d12828;
+$navy: #1e2c59;

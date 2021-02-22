@@ -1,0 +1,39 @@
+.c-ttl {
+    text-align: center;
+    h2 {
+        margin: 0;
+        font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+        font-weight: 600;
+        position: relative;
+        padding-bottom: 5px;
+        font-size: 30px;
+        @include mq(lg) {
+            font-size: 24px;
+        }
+        &:after {
+            position: absolute;
+            background: #000;
+            bottom: 0;
+            right: 50%;
+            -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+            width: 150px;
+            height: 3px;
+            border-radius: 10px;
+            content: '';
+        }
+    }
+    &--sub {
+        padding-top: 3px;
+        font-size: 24px;
+        @include mq(lg) {
+            font-size: 18px;
+        }
+    }
+    &--white {
+        color: #fff;
+        h2:after {
+            background: #fff;
+        }
+    }
+}

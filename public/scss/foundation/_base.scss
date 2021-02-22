@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    &:hover {
+        opacity: .7;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.sp {
+    display: none!important;
+    @include mq(lg) {
+        display: block!important;
+    }
+}
+
+.pc {
+    @include mq(lg) {
+        display: none!important;
+    }
+}
+
+br {
+    &.br-tab {
+        display: none;
+        @include mq(lg) {
+            display: block;
+        }
+    }
+    &.br-sp {
+        display: none;
+        @include mq(sm) {
+            display: block;
+        }
+    }
+}
