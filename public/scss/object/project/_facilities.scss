@@ -1,0 +1,13 @@
+.p-fac-img {
+    &--two {
+        display: flex;
+        p {
+            text-align: center;
+        }
+    }
+    &__item {
+        &:nth-child(2n-1) {
+            padding-right: 20px;
+        }
+    }
+}

@@ -42,6 +42,11 @@ img {
 }
 
 br {
+    &.br-pc {
+        @include mq(lg) {
+            display: none;
+        }
+    }
     &.br-tab {
         display: none;
         @include mq(lg) {

@@ -4,6 +4,31 @@
         max-width: 247px;
     }
     &--detail {
-        width: 164px;
+        max-width: 164px;
+    }
+    &--contact {
+        max-width: 230px;
+    }
+    &--global {
+        max-width: 338px;
+        padding: 0 5px;
+    }
+    &--recruit {
+        max-width: 338px;
+        padding: 0 5px;
+    }
+}
+
+.c-top-btn {
+    z-index: 500;
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
+    width: 60px;
+    height: 60px;
+    img {
+        width: 100%;
+        height: auto;
     }
 }

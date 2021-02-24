@@ -16,9 +16,9 @@
     <div class="p-top">
         <div class="p-top-news pt pb">
             <div class="p-top-news__inner pt pb">
-                <div class="c-ttl">
+                <div class="u-ttl">
                     <h2>新着情報</h2>
-                    <div class="c-ttl--sub">News</div>
+                    <div class="u-ttl--sub">News</div>
                 </div>
                 <div class="p-top-news__list">
                     <?php
@@ -47,11 +47,11 @@
             </div>
         </div>
         <div class="p-top-product mt">
-            <div class="c-ttl">
+            <div class="u-ttl">
                 <h2>製品紹介</h2>
-                <div class="c-ttl--sub">Product</div>
+                <div class="u-ttl--sub">Product</div>
             </div>
-            <div class="c-title-txt mt">お客様のご要望を最新の設計・加工設備、高度な製造システムが実現します。</div>
+            <div class="u-title-txt mt">お客様のご要望を最新の設計・加工設備、高度な製造システムが実現します。</div>
             <div class="p-top-product__list mt">
                 <div class="p-top-product__card">
                     <div class="p-top-product__img">
@@ -85,13 +85,7 @@
                 </div>
                 <div class="p-top-product__card">
                     <div class="p-top-product__img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/public/images/product5.png">
-                    </div>
-                    <div class="p-top-product__name">製品名</div>
-                </div>
-                <div class="p-top-product__card">
-                    <div class="p-top-product__img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/public/images/product3.png">
+                        <img src="<?php echo get_template_directory_uri(); ?>/public/images/product6.png">
                     </div>
                     <div class="p-top-product__name">製品名</div>
                 </div>
@@ -101,17 +95,23 @@
                     </div>
                     <div class="p-top-product__name">製品名</div>
                 </div>
+                <div class="p-top-product__card">
+                    <div class="p-top-product__img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/public/images/product3.png">
+                    </div>
+                    <div class="p-top-product__name">製品名</div>
+                </div>
             </div>
             <div class="c-link-btn c-link-btn--detail pt-half pb">
-                <a href="<?php echo esc_url(home_url('/category/news')); ?>">
+                <a href="<?php echo esc_url(home_url('/products')); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/public/images/detail-btn-navy.png" alt="詳しく見る">
                 </a>
             </div>
         </div>
         <div class="p-top-strength pt">
-            <div class="c-ttl c-ttl--white">
+            <div class="u-ttl u-ttl--white">
                 <h2>アークテックが持つ強み</h2>
-                <div class="c-ttl--sub">Our Strengths</div>
+                <div class="u-ttl--sub">Our Strengths</div>
             </div>
             <div class="c-title-txt c-title-txt--white mt">精密板金業界では初の「ISO09001」の認証を取得した実績と、<br>品質を安定させるための人材育成に取組み、常に最新の技術を提供できる体制を整えています。
             </div>
@@ -142,9 +142,9 @@
             </div>
         </div>
         <div class="p-top-global mt">
-            <div class="c-ttl">
+            <div class="u-ttl">
                 <h2>海外連携</h2>
-                <div class="c-ttl--sub">global cooperation</div>
+                <div class="u-ttl--sub">global cooperation</div>
             </div>
             <div class="p-top-global__visual mt">
                 <img src="<?php echo get_template_directory_uri(); ?>/public/images/global-main.png" alt="アークテックが実現する低リスクでの海外生産拠点化">

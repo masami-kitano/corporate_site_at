@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <?php wp_head(); ?>
 </head>
 
@@ -55,11 +54,13 @@
                         <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('company')); ?>" class="l-header__nav-link">会社案内</a></li>
                         <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('strengths')); ?>" class="l-header__nav-link">当社の強み</a></li>
                         <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('product')); ?>" class="l-header__nav-link">製品紹介</a></li>
+                        <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('facilities')); ?>" class="l-header__nav-link">設備紹介</a></li>
                         <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('global')); ?>" class="l-header__nav-link">海外連携</a></li>
                         <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('news')); ?>" class="l-header__nav-link">新着情報</a></li>
                         <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('contact')); ?>" class="l-header__nav-link">お問い合わせ</a></li>
                     </ul>
                 </nav>
             </div>
+            <div class="l-header__since msp-g">Since 1963</div>
         </div>
     </header>

@@ -1,28 +1,28 @@
 .mt {
-    margin-top: 50px;
+    margin-top: 60px;
     @include mq(lg) {
-        margin-top: 30px;
+        margin-top: 40px;
     }
 }
 
 .mb {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     @include mq(lg) {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
 }
 
 .pt {
-    padding-top: 50px;
+    padding-top: 60px;
     @include mq(lg) {
-        padding-top: 30px;
+        padding-top: 40px;
     }
 }
 
 .pb {
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     @include mq(lg) {
-        padding-bottom: 30px;
+        padding-bottom: 40px;
     }
 }
 
