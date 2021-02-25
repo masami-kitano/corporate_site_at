@@ -4,3 +4,10 @@
         font-size: 14px;
     }
 }
+
+.u-fz-sub-head {
+    font-size: 18px;
+    @include mq(lg) {
+        font-size: 16px;
+    }
+}

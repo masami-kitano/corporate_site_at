@@ -103,6 +103,9 @@
     margin-right: auto;
     max-width: 800px;
     padding: 0 15px;
+    &--no-padding {
+        padding: 0;
+    } 
 }
 
 .l-main-ws {

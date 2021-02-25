@@ -128,3 +128,31 @@
         }
     }
 }
+
+.c-table-nomal {
+    width: 100%;
+    th, td {
+        padding: 15px 30px;
+        @include mq(lg) {
+            padding: 15px;
+        }
+    }
+    thead {
+        background: $red;
+        th {
+            color: #fff;
+        }
+    }
+    tbody {
+        background: #E7E7E7;
+        td {
+            text-align: left;
+            &:nth-child(2) {
+                width: 140px;
+                @include mq(lg) {
+                    width: 100px;
+                }
+            }
+        }
+    }
+}

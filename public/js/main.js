@@ -13,10 +13,7 @@ const swiperAnimation = () => {
 swiperAnimation();
 
 jQuery(function($) {
-    /*-------------------------
-     return top
-    ---------------------------*/
-    function pageTop() {
+    const pageTop = () => {
         const topBtn = $('#page-top');
         topBtn.hide();
         $(window).scroll(function() {
@@ -34,4 +31,21 @@ jQuery(function($) {
         });
     }
     pageTop();
+
+    const ankerScroll = () => {
+        $('a[href^="#"]').click(function() {
+            const speed = 300;
+            const href = $(this).attr("href");
+
+            if ($(href).parent().css('display') == 'none') {
+                $(href).parent().css('display', 'block');
+            }
+
+            const target = $(href == "#" || href == "" ? 'html' : href);
+            const position = target.offset().top;
+            $("html, body").animate({ scrollTop: position }, speed, "swing");
+            return false;
+        });
+    }
+    ankerScroll();
 });

@@ -25,15 +25,15 @@
         </div>
         <div class="u-title-txt mt">アークテック株式会社は、金属加工に携わる企業の社会的責任を自覚し、環境との調和に配慮した<br class="br-pc">事業活動を推進し、環境重視企業を目指します。</div>
         <div class="p-company-ep__block mt">
-            <div class="p-company-ep__ttl">経営理念<span>-Management Philosophy-</span></div>
+            <div class="u-middle-ttl">経営理念<span>-Management Philosophy-</span></div>
             <div class="p-company-ep__txt mt-half">顧客と社会のニーズに応え、小さいながらも存在価値のある企業を目指しています。</div>
         </div>
         <div class="p-company-ep__block mt">
-            <div class="p-company-ep__ttl">品質方針<span>-Quality Poliicy-</span></div>
+            <div class="u-middle-ttl">品質方針<span>-Quality Poliicy-</span></div>
             <div class="p-company-ep__txt mt-half">品質の追究と、品質マネジメントシステムの維持、継続的改善により顧客に信頼と安心を提供します。</div>
         </div>
         <div class="p-company-ep__block mt">
-            <div class="p-company-ep__ttl">方針<span>-Poliicy-</span></div>
+            <div class="u-middle-ttl">方針<span>-Poliicy-</span></div>
             <div class="p-company-ep__txt mt-half">アークテック株式会社は、提供する金属板金部品製品・サービスにおいて、省エネやリサイクル性、省資源化、環境に配慮した設計、効率的なエネルギー利用、環境リスク物質の排出回避など、環境を考慮した企業活動を推進します。</div>
         </div>
         <ul class="p-company-ep__list mt">

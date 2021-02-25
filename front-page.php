@@ -113,25 +113,25 @@
                 <h2>アークテックが持つ強み</h2>
                 <div class="u-ttl--sub">Our Strengths</div>
             </div>
-            <div class="c-title-txt c-title-txt--white mt">精密板金業界では初の「ISO09001」の認証を取得した実績と、<br>品質を安定させるための人材育成に取組み、常に最新の技術を提供できる体制を整えています。
+            <div class="u-title-txt u-title-txt--white mt">精密板金業界では初の「ISO09001」の認証を取得した実績と、<br>品質を安定させるための人材育成に取組み、常に最新の技術を提供できる体制を整えています。
             </div>
             <div class="p-top-strength__list mt">
                 <div class="p-top-strength__item  p-top-strength__item--first">
                     <div class="p-top-strength__item-inner">
                         <div class="p-top-strength__ttl"><span>人工技能</span></div>
-                        <div class="p-top-strength__txt">テキストを入力します。テキストを入力します。テキストを入力します。テキストを入力します。テキストを入力します。テキストを入力します。</div>
+                        <div class="p-top-strength__txt">高品質の製品を安定して供給するためには、精度の高い生産設備と品質管理体制が必要です。私たちは高度な業務を行う優秀な技術者の育成に取り組んでいます。</div>
                     </div>
                 </div>
                 <div class="p-top-strength__item p-top-strength__item--second">
                     <div class="p-top-strength__item-inner">
                         <div class="p-top-strength__ttl"><span>品質システム</span></div>
-                        <div class="p-top-strength__txt">テキストを入力します。テキストを入力します。テキストを入力します。テキストを入力します。テキストを入力します。テキストを入力します。</div>
+                        <div class="p-top-strength__txt">精密板金業界で国内初の「ISO9001」の認証を取得。社内外での品質保証体制への高い意識を持ち続け、高品質管理の標準化を実現しています。</div>
                     </div>
                 </div>
                 <div class="p-top-strength__item p-top-strength__item--third">
                     <div class="p-top-strength__item-inner">
                         <div class="p-top-strength__ttl"><span>WEEE 対応</span></div>
-                        <div class="p-top-strength__txt">テキストを入力します。テキストを入力します。テキストを入力します。テキストを入力します。テキストを入力します。テキストを入力します。</div>
+                        <div class="p-top-strength__txt">電気・電子機器廃棄物(WEEE)に関する欧州での流通上の指令にも準拠対応しています。廃棄物回収とリサイクルシステムに適合し環境保全に取り組んでいます。</div>
                     </div>
                 </div>
                 <div class="c-link-btn c-link-btn--detail pt-half pb">
