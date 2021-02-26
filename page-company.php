@@ -6,7 +6,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/public/images/main-bg-2.png">
         </div>
         <div class="l-main__page-ttl">
-            <img src="<?php echo get_template_directory_uri(); ?>/public/images/company-title.png" alt="会社案内">
+        <h2><span class="bb">会社案内</span><span class="sub">Company</span></h2>
         </div>
     </div>
     <div class="l-main-nav mt">
@@ -20,7 +20,7 @@
     </div>
     <div class="p-company-ep mt mb">
         <div class="u-ttl">
-            <h2>環境方針</h2>
+            <h2><span>環境方針</span></h2>
             <div class="u-ttl--sub">Environmental Policy</div>
         </div>
         <div class="u-title-txt mt">アークテック株式会社は、金属加工に携わる企業の社会的責任を自覚し、環境との調和に配慮した<br class="br-pc">事業活動を推進し、環境重視企業を目指します。</div>
@@ -52,7 +52,7 @@
     <div class="p-company-cp pt" style="background-image: url('<?php echo get_template_directory_uri(); ?>/public/images/company-profle-bg.png');">
         <div class="p-company-cp__inner">
             <div class="u-ttl">
-                <h2>会社概要</h2>
+                <h2><span>会社概要</span></h2>
                 <div class="u-ttl--sub">Company Profile</div>
             </div>
             <div class="p-company-cp__tb mt mb">
@@ -158,7 +158,7 @@
     <div class="p-company-history pt pb">
         <div class="p-company-history__inner pt pb">
             <div class="u-ttl">
-                <h2>沿革</h2>
+                <h2><span>沿革</span></h2>
                 <div class="u-ttl--sub">History</div>
             </div>
             <div class="c-table-flex mt">
@@ -325,7 +325,7 @@
     </div>
     <div class="p-company-global mt">
         <div class="u-ttl">
-            <h2>海外連携</h2>
+            <h2><span>海外連携</span></h2>
             <div class="u-ttl--sub">global cooperation</div>
         </div>
         <div class="u-title-txt mt">
@@ -412,7 +412,7 @@
         <img class="recruit-bg" src="<?php echo get_template_directory_uri(); ?>/public/images/recruit-bg.png">
         <div class="p-company-recruit__inner">
             <div class="u-ttl">
-                <h2>採用情報</h2>
+                <h2><span>採用情報</span></h2>
                 <div class="u-ttl--sub">recruit</div>
             </div>
             <div class="u-title-txt mt-half">

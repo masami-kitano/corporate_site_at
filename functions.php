@@ -56,8 +56,15 @@ function add_files() {
 
     /* ----- main.js ----- */
     wp_enqueue_script( 'common-script' ,get_template_directory_uri() . '/public/js/main.js', array('jquery'), false, true);
+
+    wp_enqueue_script( 'ajaxzip3', 'https://ajaxzip3.github.io/ajaxzip3.js', array( 'jquery' ), '20210225', true );
+
+    wp_enqueue_script( 'autozip', get_stylesheet_directory_uri() . '/public/js/autozip.js', array( 'jquery' ), '20210225', true );
+
+    
 }
 add_action('wp_enqueue_scripts', 'add_files');
+
 
 /* -------------------------
  抜粋記事の文字数制限指定

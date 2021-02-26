@@ -1,0 +1,22 @@
+.p-policy {
+    &__block {
+        margin-bottom: 40px;
+        li {
+            margin-left: 30px;
+            line-height: 1.8;
+            list-style: initial;
+        }
+        p {
+            line-height: 1.8;
+        }
+        @include mq(lg) {
+            h3 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 14px;
+                line-height: 1.8;
+            }
+        }
+    }
+}

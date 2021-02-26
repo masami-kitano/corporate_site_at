@@ -118,6 +118,9 @@
     }
     &__logo {
         width: 184px;
+        a:hover {
+            opacity: 1;
+        }
         @include mq(lg) {
             width: 120px;
         }

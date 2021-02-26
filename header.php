@@ -22,7 +22,9 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/public/images/tell-mark.png">
                     <div class="l-header__tel">
                         <div class="txt">お電話でのお問い合わせ</div>
-                        <div class="num">0282-86-0276</div>
+                        <div class="num">
+                            <a href="tel:0282860276">0282-86-0276<a>
+                        </div>
                     </div>
                     <div class="l-header__page-link">
                         <a href="<?php echo esc_url(home_url('policy')); ?>" class="policy">&rtrif; プライバシーポリシー</a>
@@ -52,11 +54,11 @@
                     <ul class="l-header__nav-list u-msp-g">
                         <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('')); ?>" class="l-header__nav-link">ホーム</a></li>
                         <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('company')); ?>" class="l-header__nav-link">会社案内</a></li>
-                        <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('strengths')); ?>" class="l-header__nav-link">当社の強み</a></li>
+                        <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('strength')); ?>" class="l-header__nav-link">当社の強み</a></li>
                         <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('product')); ?>" class="l-header__nav-link">製品紹介</a></li>
-                        <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('facilities')); ?>" class="l-header__nav-link">設備紹介</a></li>
+                        <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('facility')); ?>" class="l-header__nav-link">設備紹介</a></li>
                         <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('global')); ?>" class="l-header__nav-link">海外連携</a></li>
-                        <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('news')); ?>" class="l-header__nav-link">新着情報</a></li>
+                        <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('category/news')); ?>" class="l-header__nav-link">新着情報</a></li>
                         <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('contact')); ?>" class="l-header__nav-link">お問い合わせ</a></li>
                     </ul>
                 </nav>

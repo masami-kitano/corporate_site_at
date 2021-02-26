@@ -17,7 +17,7 @@
         <div class="p-top-news pt pb">
             <div class="p-top-news__inner pt pb">
                 <div class="u-ttl">
-                    <h2>新着情報</h2>
+                    <h2><span>新着情報</span></h2>
                     <div class="u-ttl--sub">News</div>
                 </div>
                 <div class="p-top-news__list">
@@ -48,58 +48,46 @@
         </div>
         <div class="p-top-product mt">
             <div class="u-ttl">
-                <h2>製品紹介</h2>
+                <h2><span>製品紹介</span></h2>
                 <div class="u-ttl--sub">Product</div>
             </div>
             <div class="u-title-txt mt">お客様のご要望を最新の設計・加工設備、高度な製造システムが実現します。</div>
             <div class="p-top-product__list mt">
                 <div class="p-top-product__card">
                     <div class="p-top-product__img">
+                        <div class="p-top-product__name">製品名</div>
                         <img src="<?php echo get_template_directory_uri(); ?>/public/images/product1.png">
                     </div>
-                    <div class="p-top-product__name">製品名</div>
                 </div>
                 <div class="p-top-product__card">
                     <div class="p-top-product__img">
+                        <div class="p-top-product__name">製品名</div>
                         <img src="<?php echo get_template_directory_uri(); ?>/public/images/product2.png">
                     </div>
-                    <div class="p-top-product__name">製品名</div>
                 </div>
                 <div class="p-top-product__card">
                     <div class="p-top-product__img">
+                        <div class="p-top-product__name">製品名</div>
                         <img src="<?php echo get_template_directory_uri(); ?>/public/images/product3.png">
                     </div>
-                    <div class="p-top-product__name">製品名</div>
                 </div>
                 <div class="p-top-product__card">
                     <div class="p-top-product__img">
+                        <div class="p-top-product__name">製品名</div>
                         <img src="<?php echo get_template_directory_uri(); ?>/public/images/product4.png">
                     </div>
-                    <div class="p-top-product__name">製品名</div>
                 </div>
                 <div class="p-top-product__card">
                     <div class="p-top-product__img">
+                        <div class="p-top-product__name">製品名</div>
                         <img src="<?php echo get_template_directory_uri(); ?>/public/images/product5.png">
                     </div>
-                    <div class="p-top-product__name">製品名</div>
                 </div>
                 <div class="p-top-product__card">
                     <div class="p-top-product__img">
+                        <div class="p-top-product__name">製品名</div>
                         <img src="<?php echo get_template_directory_uri(); ?>/public/images/product6.png">
                     </div>
-                    <div class="p-top-product__name">製品名</div>
-                </div>
-                <div class="p-top-product__card">
-                    <div class="p-top-product__img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/public/images/product4.png">
-                    </div>
-                    <div class="p-top-product__name">製品名</div>
-                </div>
-                <div class="p-top-product__card">
-                    <div class="p-top-product__img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/public/images/product3.png">
-                    </div>
-                    <div class="p-top-product__name">製品名</div>
                 </div>
             </div>
             <div class="c-link-btn c-link-btn--detail pt-half pb">
@@ -110,7 +98,7 @@
         </div>
         <div class="p-top-strength pt">
             <div class="u-ttl u-ttl--white">
-                <h2>アークテックが持つ強み</h2>
+                <h2><span>アークテックが持つ強み</span></h2>
                 <div class="u-ttl--sub">Our Strengths</div>
             </div>
             <div class="u-title-txt u-title-txt--white mt">精密板金業界では初の「ISO09001」の認証を取得した実績と、<br>品質を安定させるための人材育成に取組み、常に最新の技術を提供できる体制を整えています。
@@ -143,7 +131,7 @@
         </div>
         <div class="p-top-global mt">
             <div class="u-ttl">
-                <h2>海外連携</h2>
+                <h2><span>海外連携</span></h2>
                 <div class="u-ttl--sub">global cooperation</div>
             </div>
             <div class="p-top-global__visual mt">

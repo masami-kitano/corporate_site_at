@@ -10,21 +10,24 @@
         @include mq(lg) {
             font-size: 24px;
         }
-        &:after {
-            position: absolute;
-            background: #000;
-            bottom: 0;
-            right: 50%;
-            -webkit-transform: translateX(50%);
-            transform: translateX(50%);
-            width: 150px;
-            height: 3px;
-            border-radius: 10px;
-            content: '';
+        span {
+            position: relative;
+            &:after {
+                position: absolute;
+                background: #000;
+                bottom: -10px;
+                right: 50%;
+                -webkit-transform: translateX(50%);
+                transform: translateX(50%);
+                width: 110%;
+                height: 3px;
+                border-radius: 10px;
+                content: '';
+            }
         }
     }
     &--sub {
-        padding-top: 3px;
+        padding-top: 10px;
         font-size: 24px;
         @include mq(lg) {
             font-size: 18px;
@@ -32,8 +35,10 @@
     }
     &--white {
         color: #fff;
-        h2:after {
-            background: #fff;
+        h2 {
+            span:after {
+                background: #fff;
+            }
         }
     }
 }

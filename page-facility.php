@@ -6,12 +6,12 @@
             <img src="<?php echo get_template_directory_uri(); ?>/public/images/main-bg-3.png">
         </div>
         <div class="l-main__page-ttl">
-            <img src="<?php echo get_template_directory_uri(); ?>/public/images/facilities-title.png" alt="設備紹介">
+            <h2><span class="bb">設備紹介</span><span class="sub">Facilities</span></h2>
         </div>
     </div>
     <div class="l-main-wl p-fac-about mt">
         <div class="u-ttl u-a-otf">
-            <h2>工場内設備について</h2>
+            <h2><span>工場内設備について</span></h2>
         </div>
         <div class="u-title-txt mt-half u-txt-left u-fz-p u-kozuka">
             <p>社内ネットワークにより加工データを加工機に転送、パンチ・レーザーマシン等の加工が開始されます。材料自動倉庫、搬出入装置、金型ＡＴＣ、タレットパンチプレスを装備したＦＭＣの自動運転で、無人省力化が可能になりました。
@@ -258,7 +258,7 @@
                             <td>1台</td>
                         </tr>
                         <tr>
-                            <td>NTベンダー（HG、  FαBⅢ他）</td>
+                            <td>NTベンダー（HG、 FαBⅢ他）</td>
                             <td>5台</td>
                         </tr>
                         <tr>
@@ -621,7 +621,7 @@
                             <td>1台</td>
                         </tr>
                         <tr>
-                            <td>実体顕微鏡（ニコン、  オリンパス）</td>
+                            <td>実体顕微鏡（ニコン、 オリンパス）</td>
                             <td>5台</td>
                         </tr>
                         <tr>

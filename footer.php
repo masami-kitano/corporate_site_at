@@ -21,17 +21,17 @@
             <div class="l-footer-menu__wrapper">
                 <ul class="l-footer-menu__list l-footer-menu__list--top">
                     <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('')); ?>" class="l-footer-menu__link">ホーム</a></li>
-                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('')); ?>" class="l-footer-menu__link">会社案内</a></li>
-                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('')); ?>" class="l-footer-menu__link">当社の強み</a></li>
-                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('')); ?>" class="l-footer-menu__link">製品紹介</a></li>
-                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('')); ?>" class="l-footer-menu__link">海外連携</a></li>
-                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('')); ?>" class="l-footer-menu__link">新着情報</a></li>
+                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('company')); ?>" class="l-footer-menu__link">会社案内</a></li>
+                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('strength')); ?>" class="l-footer-menu__link">当社の強み</a></li>
+                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('product')); ?>" class="l-footer-menu__link">製品紹介</a></li>
+                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('global')); ?>" class="l-footer-menu__link">海外連携</a></li>
+                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('category/news')); ?>" class="l-footer-menu__link">新着情報</a></li>
                 </ul>
                 <ul class="l-footer-menu__list l-footer-menu__list--bottom">
-                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('')); ?>" class="l-footer-menu__link">お問い合わせ</a></li>
-                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('')); ?>" class="l-footer-menu__link">見積もり専用フォーム</a></li>
-                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('')); ?>" class="l-footer-menu__link">サイトマップ</a></li>
-                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('')); ?>" class="l-footer-menu__link">プライバシーポリシー</a></li>
+                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('contact')); ?>" class="l-footer-menu__link">お問い合わせ</a></li>
+                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('form')); ?>" class="l-footer-menu__link">見積もり専用フォーム</a></li>
+                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('sitemap')); ?>" class="l-footer-menu__link">サイトマップ</a></li>
+                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('policy')); ?>" class="l-footer-menu__link">プライバシーポリシー</a></li>
                 </ul>
             </div>
         </div>
