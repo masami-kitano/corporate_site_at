@@ -12,7 +12,7 @@
 <body <?php body_class(); ?>>
     <header class="l-header">
         <div class="l-header__top flex">
-            <div class="l-header__msg u-biz-udp">高精度板金の提案企業 <br class="br-sp">アークテック株式会社</div>
+            <div class="l-header__msg u-biz-udp">精密板金"企業として 日本初のISO9001登録 <br class="br-only">アークテック株式会社</div>
             <div class="l-header__link flex">
                 <div class="l-header__link-item l-header__lang flex pc">
                     <img src="<?php echo get_template_directory_uri(); ?>/public/images/language-mark.png">
@@ -51,7 +51,7 @@
                     <span></span>
                 </label>
                 <nav class="l-header__nav">
-                    <ul class="l-header__nav-list u-msp-g">
+                    <ul class="l-header__nav-list u-msp-g font-bold">
                         <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('')); ?>" class="l-header__nav-link">ホーム</a></li>
                         <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('company')); ?>" class="l-header__nav-link">会社案内</a></li>
                         <li class="l-header__nav-item"><a href="<?php echo esc_url(home_url('strength')); ?>" class="l-header__nav-link">当社の強み</a></li>
@@ -63,6 +63,6 @@
                     </ul>
                 </nav>
             </div>
-            <div class="l-header__since u-msp-g">Since 1963</div>
+            <div class="l-header__since u-msp-g font-bold">Since 1963</div>
         </div>
     </header>

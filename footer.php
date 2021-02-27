@@ -24,10 +24,11 @@
                     <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('company')); ?>" class="l-footer-menu__link">会社案内</a></li>
                     <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('strength')); ?>" class="l-footer-menu__link">当社の強み</a></li>
                     <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('product')); ?>" class="l-footer-menu__link">製品紹介</a></li>
+                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('facility')); ?>" class="l-footer-menu__link">設備紹介</a></li>
                     <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('global')); ?>" class="l-footer-menu__link">海外連携</a></li>
-                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('category/news')); ?>" class="l-footer-menu__link">新着情報</a></li>
                 </ul>
                 <ul class="l-footer-menu__list l-footer-menu__list--bottom">
+                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('category/news')); ?>" class="l-footer-menu__link">新着情報</a></li>
                     <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('contact')); ?>" class="l-footer-menu__link">お問い合わせ</a></li>
                     <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('form')); ?>" class="l-footer-menu__link">見積もり専用フォーム</a></li>
                     <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('sitemap')); ?>" class="l-footer-menu__link">サイトマップ</a></li>
@@ -52,16 +53,18 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/public/images/ark-logo.png" alt="アークテック株式会社">
                 <span>アークテック株式会社</span>
             </div>
+            <div class="l-footer-info__address">〒321-0202 栃木県下都賀郡壬おもちゃのまち4-11-16</div>
+        </div>
+        <div class="l-footer-info__company">
             <div class="l-footer-info__twitter">
-                <a href="">
+                <a href="https://twitter.com/arktech_k" target="_blank">
                     <img src="<?php echo get_template_directory_uri(); ?>/public/images/twitter-link.png" alt="アークテック株式会社のTwitter">
                 </a>
             </div>
-        </div>
-        <div class="l-footer-info__address">〒321-0202 栃木県下都賀郡壬おもちゃのまち4-11-16</div>
-        <div class="l-footer-info__tel">
-            <div class="num">TEL.0282-86-0276</div>
-            <div class="fax-num">FAX.0282-86-0365</div>
+            <div class="l-footer-info__tel">
+                <div class="num">TEL.0282-86-0276</div>
+                <div class="fax-num">FAX.0282-86-0365</div>
+            </div>
         </div>
     </div>
     <div class="l-footer-info-copy pt-half pb-half">

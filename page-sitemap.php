@@ -16,6 +16,9 @@
             </li>
             <li class="p-sitemap__item">
                 <a href="<?php echo esc_url(home_url('company')); ?>" class="p-sitemap__link"><span class="bb">会社案内</span><span class="sub">Company</span></a>
+                <div class="p-sitemap__sub-item">
+                    <a href="<?php echo esc_url(home_url('recruit')); ?>" class="p-sitemap__link--sub"><span class="bb">＞採用情報</span><span class="sub">Recruit</span></a>
+                </div>
             </li>
             <li class="p-sitemap__item">
                 <a href="<?php echo esc_url(home_url('strength')); ?>" class="p-sitemap__link"><span class="bb">当社の強み</span><span class="sub">Strength</span></a>

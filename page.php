@@ -1,8 +1,5 @@
 <?php get_header(); ?>
 <main class="l-main">
-    <aside>
-        <?php get_sidebar(); ?>
-    </aside>
     <article>
         <?php if (have_posts()) : ?>
             <?php while (have_posts()) : the_post(); ?>

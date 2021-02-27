@@ -3,38 +3,53 @@
 <main class="l-main">
     <div class="l-main__bg relative">
         <div class="l-main__bg-container">
-            <img src="<?php echo get_template_directory_uri(); ?>/public/images/main-bg-2.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/public/images/main-company-bg.jpg">
         </div>
         <div class="l-main__page-ttl">
-        <h2><span class="bb">会社案内</span><span class="sub">Company</span></h2>
+            <h2><span class="bb">会社案内</span><span class="sub">Company</span></h2>
         </div>
     </div>
     <div class="l-main-nav mt">
         <ul class="l-main-nav__list">
-            <li class="l-main-nav__item"><a href="<?php echo esc_url(home_url('')); ?>" class="l-main-nav__link">環境方針</a></li>
-            <li class="l-main-nav__item"><a href="<?php echo esc_url(home_url('')); ?>" class="l-main-nav__link">会社概要</a></li>
-            <li class="l-main-nav__item"><a href="<?php echo esc_url(home_url('')); ?>" class="l-main-nav__link">沿革</a></li>
-            <li class="l-main-nav__item"><a href="<?php echo esc_url(home_url('')); ?>" class="l-main-nav__link">海外連携</a></li>
-            <li class="l-main-nav__item"><a href="<?php echo esc_url(home_url('')); ?>" class="l-main-nav__link">採用情報</a></li>
+            <li class="l-main-nav__item"><a href="#ep" class="l-main-nav__link">経営方針</a></li>
+            <li class="l-main-nav__item"><a href="#cp" class="l-main-nav__link">会社概要</a></li>
+            <li class="l-main-nav__item"><a href="#history" class="l-main-nav__link">沿革</a></li>
+            <li class="l-main-nav__item"><a href="#global" class="l-main-nav__link">海外連携</a></li>
+            <li class="l-main-nav__item"><a href="#recruit" class="l-main-nav__link">採用情報</a></li>
         </ul>
     </div>
-    <div class="p-company-ep mt mb">
+    <div id="ep" class="p-company-ep mt mb">
         <div class="u-ttl">
-            <h2><span>環境方針</span></h2>
-            <div class="u-ttl--sub">Environmental Policy</div>
+            <h2><span>経営方針</span></h2>
+            <!-- <div class="u-ttl--sub">Environmental Policy</div> -->
         </div>
         <div class="u-title-txt mt">アークテック株式会社は、金属加工に携わる企業の社会的責任を自覚し、環境との調和に配慮した<br class="br-pc">事業活動を推進し、環境重視企業を目指します。</div>
         <div class="p-company-ep__block mt">
-            <div class="u-middle-ttl">経営理念<span>-Management Philosophy-</span></div>
-            <div class="p-company-ep__txt mt-half">顧客と社会のニーズに応え、小さいながらも存在価値のある企業を目指しています。</div>
+            <!-- <div class="u-middle-ttl">経営理念<span>-Management Philosophy-</span></div> -->
+            <div class="u-middle-ttl">経営基本方針</div>
+            <div class="p-company-ep__txt mt-half">
+                常に新しい技術に挑戦し、顧客に信頼される製品を提供する<br />
+                社会発展に適合し、関係するすべての人々と共に繁栄する<br />
+                国際的視野に立って、自己啓発を進め一人ひとりの資質を伸ばす
+            </div>
         </div>
         <div class="p-company-ep__block mt">
-            <div class="u-middle-ttl">品質方針<span>-Quality Poliicy-</span></div>
-            <div class="p-company-ep__txt mt-half">品質の追究と、品質マネジメントシステムの維持、継続的改善により顧客に信頼と安心を提供します。</div>
+            <div class="u-middle-ttl">経営理念</div>
+            <div class="p-company-ep__txt mt-half">
+                顧客と社会のニーズに応え、小さいながらも存在価値のある企業を目指す
+            </div>
         </div>
         <div class="p-company-ep__block mt">
-            <div class="u-middle-ttl">方針<span>-Poliicy-</span></div>
-            <div class="p-company-ep__txt mt-half">アークテック株式会社は、提供する金属板金部品製品・サービスにおいて、省エネやリサイクル性、省資源化、環境に配慮した設計、効率的なエネルギー利用、環境リスク物質の排出回避など、環境を考慮した企業活動を推進します。</div>
+            <div class="u-middle-ttl">品質方針</div>
+            <div class="p-company-ep__txt mt-half">
+                品質の追求と、品質マネジメントシステムの維持、継続的改善により顧客に信頼と安心を提供する
+            </div>
+        </div>
+        <div class="p-company-ep__block mt">
+            <div class="u-middle-ttl">環境方針</div>
+            <div class="p-company-ep__txt mt-half">
+                アークテック株式会社は、提供する金属板金部品製品・サービスにおいて、省エネやリサイクル性、省資源化、環境に配慮した設計、効率的なエネルギー利用、環境リスク物質の排出回避など、環境を考慮した企業活動を推進します。
+            </div>
         </div>
         <ul class="p-company-ep__list mt">
             <li class="p-company-ep__item">企業活動を通じ、省資源、省エネルギーの推進、廃棄物の削減等を行い、健全な環境の維持向上を図るとともに、環境に配慮した製品の提供を推進し、当社の生産活動から生じる環境汚染の予防に努めます。</li>
@@ -49,7 +64,7 @@
             <p>代表取締役社長　荒川　吉朗</p>
         </div>
     </div>
-    <div class="p-company-cp pt" style="background-image: url('<?php echo get_template_directory_uri(); ?>/public/images/company-profle-bg.png');">
+    <div id="cp" class="p-company-cp pt" style="background-image: url('<?php echo get_template_directory_uri(); ?>/public/images/company-profle-bg.png');">
         <div class="p-company-cp__inner">
             <div class="u-ttl">
                 <h2><span>会社概要</span></h2>
@@ -67,7 +82,7 @@
                             <div class="c-table-flex__data-item">
                                 <div class="top">〔本社・工場〕　〒321-0202　栃木県下都賀郡壬生町おもちゃのまち4-11-16</div>
                                 <div class="bottom">
-                                    <a href="">
+                                    <a href="https://www.google.co.jp/maps/place/%E3%80%92321-0202+%E6%A0%83%E6%9C%A8%E7%9C%8C%E4%B8%8B%E9%83%BD%E8%B3%80%E9%83%A1%E5%A3%AC%E7%94%9F%E7%94%BA%E3%81%8A%E3%82%82%E3%81%A1%E3%82%83%E3%81%AE%E3%81%BE%E3%81%A1%EF%BC%94%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%91%E2%88%92%EF%BC%91%EF%BC%96/@36.468433,139.8401012,17z/data=!3m1!4b1!4m5!3m4!1s0x601f433850ea6d29:0x36dc41b47eda893a!8m2!3d36.4684287!4d139.8422899?hl=ja" target="_blank">
                                         <img src="<?php echo get_template_directory_uri(); ?>/public/images/map-icon.png" alt="MAP">
                                     </a>
                                     <div>TEL.0282-86-0276（代表）</div>
@@ -77,7 +92,7 @@
                             <div class="c-table-flex__data-item">
                                 <div class="top">〔小山工場〕　 〒329-0205　栃木県小山市間々田931</div>
                                 <div class="bottom">
-                                    <a href="">
+                                    <a href="https://www.google.co.jp/maps/place/%E3%80%92329-0205+%E6%A0%83%E6%9C%A8%E7%9C%8C%E5%B0%8F%E5%B1%B1%E5%B8%82%E9%96%93%E3%80%85%E7%94%B0%EF%BC%99%EF%BC%93%EF%BC%91/@36.2675162,139.7665184,17z/data=!3m1!4b1!4m5!3m4!1s0x601f4bf94fb59221:0xfeb26dea1b7dc8aa!8m2!3d36.2675119!4d139.7687071?hl=ja" target="_blank">
                                         <img src="<?php echo get_template_directory_uri(); ?>/public/images/map-icon.png" alt="MAP">
                                     </a>
                                 </div>
@@ -85,7 +100,7 @@
                             <div class="c-table-flex__data-item">
                                 <div class="top">〔石橋工場〕 　栃木県下野市下古山</div>
                                 <div class="bottom">
-                                    <a href="">
+                                    <a href="https://www.google.co.jp/maps/place/%E3%80%92329-0502+%E6%A0%83%E6%9C%A8%E7%9C%8C%E4%B8%8B%E9%87%8E%E5%B8%82%E4%B8%8B%E5%8F%A4%E5%B1%B1/@36.4552244,139.8489753,15z/data=!3m1!4b1!4m5!3m4!1s0x601f5caa6f7f6ec3:0xfa87edbca1a4377e!8m2!3d36.4519602!4d139.8572863?hl=ja" target="_blank">
                                         <img src="<?php echo get_template_directory_uri(); ?>/public/images/map-icon.png" alt="MAP">
                                     </a>
                                 </div>
@@ -93,7 +108,7 @@
                             <div class="c-table-flex__data-item">
                                 <div class="top">〔アークテックフィリピン〕</div>
                                 <div class="bottom">
-                                    <a href="">
+                                    <a href="https://www.google.co.jp/maps/place/First+Philippine+Industrial+Park,+Inc./@14.1372257,121.1329633,17z/data=!3m1!4b1!4m5!3m4!1s0x33bd6bbaa1555555:0x8406db46db1afbec!8m2!3d14.1372205!4d121.135152?hl=ja"  target="_blank">
                                         <img src="<?php echo get_template_directory_uri(); ?>/public/images/map-icon.png" alt="MAP">
                                     </a>
                                 </div>
@@ -155,7 +170,7 @@
             </div>
         </div>
     </div>
-    <div class="p-company-history pt pb">
+    <div id="history" class="p-company-history pt pb">
         <div class="p-company-history__inner pt pb">
             <div class="u-ttl">
                 <h2><span>沿革</span></h2>
@@ -323,7 +338,7 @@
             </div>
         </div>
     </div>
-    <div class="p-company-global mt">
+    <div id="global" class="p-company-global mt">
         <div class="u-ttl">
             <h2><span>海外連携</span></h2>
             <div class="u-ttl--sub">global cooperation</div>
@@ -376,7 +391,7 @@
                     <th>URL</th>
                     <td>
                         <p><a href="http://www.arktech.co.jp/ph/">〔英語版〕</a></p>
-                        <P><a href="http://www.arktech.co.jp/ph/">〔日本語版〕</a></p>
+                        <P><a href="http://www.arktech.co.jp/">〔日本語版〕</a></p>
                     </td>
                 </tr>
                 <tr>
@@ -408,7 +423,7 @@
             </a>
         </div>
     </div>
-    <div class="p-company-recruit">
+    <div id="recruit" class="p-company-recruit">
         <img class="recruit-bg" src="<?php echo get_template_directory_uri(); ?>/public/images/recruit-bg.png">
         <div class="p-company-recruit__inner">
             <div class="u-ttl">

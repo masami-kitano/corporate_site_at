@@ -30,28 +30,21 @@
         <div class="l-main-wl mt p-form-step-wrapper">
             <div class="p-form-step">
                 <ul class="p-form-step__list">
-                    <li class="p-form-step__item p-form-step__item1 now">
-                        <p class="p-form-step__item-inner navy"><span class="small">1</span><span class="txt">情報の入力</span></p>
+                    <li class="p-form-step__item p-form-step__item1">
+                        <p class="p-form-step__item-inner gray"><span class="small">1</span><span class="txt">情報の入力</span></p>
                     </li>
                     <li class="p-form-step__item p-form-step__item2">
                         <p class="p-form-step__item-inner gray"><span class="small">2</span><span class="txt">入力内容の確認</span></p>
                     </li>
-                    <li class="p-form-step__item p-form-step__item3 gray">
-                        <p class="p-form-step__item-inner gray"><span class="small">3</span><span class="txt">受付完了</span></p>
+                    <li class="p-form-step__item p-form-step__item3 now">
+                        <p class="p-form-step__item-inner navy"><span class="small">3</span><span class="txt">受付完了</span></p>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="p-form-contents-wrapper mb">
-            <div class="p-form-contents-area">
-                <?php echo do_shortcode('[mwform_formkey key="29"]'); ?>
-            </div>
-            <!--//contents-wrapper-->
+            <?php echo do_shortcode('[mwform_formkey key="29"]'); ?>
         </div>
 </main>
-
-
-
-
 
 <?php get_footer();

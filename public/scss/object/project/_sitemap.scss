@@ -6,6 +6,7 @@
         overflow: hidden;
     }
     &__item {
+        position: relative;
         margin-bottom: 30px;
         width: 48.5%;
         height: 180px;
@@ -104,6 +105,56 @@
                 }
                 @include mq(xs) {
                     font-size: 12px;
+                }
+            }
+        }
+        &--sub {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            display: block;
+            padding: 10px;
+            font-size: 24px;
+            color: #fff;
+            transition: all 0.3s;
+            @include mq(lg) {
+                font-size: 16px;
+            }
+            @include mq(xs) {
+                font-size: 14px;
+            }
+            &:hover {
+                background: #000;
+            }
+            span {
+                position: relative;
+                -webkit-filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 1));
+                -moz-filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 1));
+                -ms-filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 1));
+                filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 1));
+                &.bb {
+                    &:after {
+                        position: absolute;
+                        background: #fff;
+                        bottom: -10px;
+                        left: 0;
+                        width: 100%;
+                        height: 4px;
+                        height: 2px;
+                        border-radius: 10px;
+                        content: '';
+                    }
+                }
+                &.sub {
+                    padding-top: 10px;
+                    font-size: 20px;
+                    display: block;
+                    @include mq(lg) {
+                        font-size: 14px;
+                    }
+                    @include mq(xs) {
+                        font-size: 12px;
+                    }
                 }
             }
         }

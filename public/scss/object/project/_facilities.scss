@@ -99,6 +99,12 @@
         background: #e7e7e7;
         border-right: 2px solid #fff;
         border-left: 2px solid #fff;
+        img {
+            max-height: 243px;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
         @include mq(lg) {
             padding: 30px;
         }

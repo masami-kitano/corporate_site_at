@@ -1,17 +1,14 @@
 <?php get_header(); ?>
-<div id="content">
+<main class="l-main mt-x mb l-main-wm">
     <article class="p-single">
         <div class="p-single__container">
             <?php if (have_posts()) : ?>
                 <?php while (have_posts()) : the_post(); ?>
                     <section <?php post_class(); ?>>
                         <div class="p-single__inner">
-                            <div class="p-single__date">
-                                <?php the_time('Y.m.d'); ?>
-                            </div>
-                            <h1 class="p-single__title"><?php the_title(); ?></h1>
+                            <h1 class="p-single__title p-product-single__ttl u-a-otf"><?php the_title(); ?></h1>
                             <div class="p-single__category"><?php the_category(','); ?></div>
-                            <div class="p-single__wrap">
+                            <div class="p-single__wrap p-product-single__content u-kozuka">
                                 <div class="p-single__header">
                                     <div class="p-single__body">
                                         <?php the_content(); ?>
@@ -20,7 +17,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="r-l-arrow clearfix">
+                    <section class="r-l-arrow clearfix mt">
                         <div class="leftcol"><?php previous_post_link('%link', '&laquo; 前のニュースへ'); ?></div>
                         <div class="rightcol"><?php next_post_link('%link', '次のニュースへ &raquo;'); ?></div>
                     </section>
@@ -31,5 +28,5 @@
             <?php endif; ?>
         </div>
     </article>
-</div>
+</main>
 <?php get_footer();

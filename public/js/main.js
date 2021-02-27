@@ -49,3 +49,7 @@ jQuery(function($) {
     }
     ankerScroll();
 });
+
+jQuery('#your-zip').keyup(function() {
+    AjaxZip3.zip2addr(this, '', 'your-prefecture', 'your-address');
+});

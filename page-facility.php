@@ -3,7 +3,7 @@
 <main class="l-main">
     <div class="l-main__bg relative">
         <div class="l-main__bg-container">
-            <img src="<?php echo get_template_directory_uri(); ?>/public/images/main-bg-3.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/public/images/main-facility-bg.jpg">
         </div>
         <div class="l-main__page-ttl">
             <h2><span class="bb">設備紹介</span><span class="sub">Facilities</span></h2>

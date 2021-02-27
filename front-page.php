@@ -4,12 +4,15 @@
     <div class="l-main__bg relative">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/public/images/main-bg-1.png"></div>
-                <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/public/images/main-bg-2.png"></div>
-                <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/public/images/main-bg-3.png"></div>
+                <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/public/images/main-bg-1.JPG"></div>
+                <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/public/images/main-bg-2.JPG"></div>
+                <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/public/images/main-bg-3.JPG"></div>
+                <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/public/images/main-bg-4.JPG"></div>
+                <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/public/images/main-bg-5.JPG"></div>
+                <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/public/images/main-bg-6.JPG"></div>
             </div>
         </div>
-        <div class="l-main__copy absolute-center">
+        <div class="l-main__copy">
             <img src="<?php echo get_template_directory_uri(); ?>/public/images/main-txt-top.png" alt="Spirit of Monozukuri Pride of Professional World Trading">
         </div>
     </div>
@@ -36,7 +39,7 @@
                             </a>
                         <?php endwhile; ?>
                     <?php else : ?>
-                        <div class="no-news">新しい記事はありません</div>
+                        <div class="no-news u-txt-center">新しい記事はありません</div>
                     <?php endif; ?>
                 </div>
                 <div class="c-link-btn c-link-btn--news pt-half">
@@ -53,45 +56,35 @@
             </div>
             <div class="u-title-txt mt">お客様のご要望を最新の設計・加工設備、高度な製造システムが実現します。</div>
             <div class="p-top-product__list mt">
-                <div class="p-top-product__card">
-                    <div class="p-top-product__img">
-                        <div class="p-top-product__name">製品名</div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/public/images/product1.png">
+                <?php $args = array(
+                    'numberposts' => 6,
+                    'post_type' => 'product'
+                );
+                $posts = get_posts($args);
+                if ($posts) : foreach ($posts as $post) : setup_postdata($post); ?>
+                        <a href="<?php the_permalink(); ?>" class="p-top-product__card">
+                            <div class="vid-area__content">
+                                <div class="p-top-product__img">
+                                    <div class="p-top-product__name"><?php the_title(); ?></div>
+                                    <?php
+                                    if (has_post_thumbnail()) {
+                                        the_post_thumbnail('large');
+                                    }
+                                    ?>
+                                </div>
+                            </div>
+                        </a>
+                    <?php endforeach; ?>
+                <?php else : ?>
+                    <div class="article-not-found">
+                        <p>記事はまだありません。</p>
                     </div>
-                </div>
-                <div class="p-top-product__card">
-                    <div class="p-top-product__img">
-                        <div class="p-top-product__name">製品名</div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/public/images/product2.png">
-                    </div>
-                </div>
-                <div class="p-top-product__card">
-                    <div class="p-top-product__img">
-                        <div class="p-top-product__name">製品名</div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/public/images/product3.png">
-                    </div>
-                </div>
-                <div class="p-top-product__card">
-                    <div class="p-top-product__img">
-                        <div class="p-top-product__name">製品名</div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/public/images/product4.png">
-                    </div>
-                </div>
-                <div class="p-top-product__card">
-                    <div class="p-top-product__img">
-                        <div class="p-top-product__name">製品名</div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/public/images/product5.png">
-                    </div>
-                </div>
-                <div class="p-top-product__card">
-                    <div class="p-top-product__img">
-                        <div class="p-top-product__name">製品名</div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/public/images/product6.png">
-                    </div>
-                </div>
+                <?php endif;
+                wp_reset_postdata();
+                ?>
             </div>
             <div class="c-link-btn c-link-btn--detail pt-half pb">
-                <a href="<?php echo esc_url(home_url('/products')); ?>">
+                <a href="<?php echo esc_url(home_url('product')); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/public/images/detail-btn-navy.png" alt="詳しく見る">
                 </a>
             </div>
@@ -123,7 +116,7 @@
                     </div>
                 </div>
                 <div class="c-link-btn c-link-btn--detail pt-half pb">
-                    <a href="<?php echo esc_url(home_url('/category/news')); ?>">
+                    <a href="<?php echo esc_url(home_url('/strength')); ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/public/images/detail-btn-white.png" alt="詳しく見る">
                     </a>
                 </div>
@@ -138,7 +131,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/public/images/global-main.png" alt="アークテックが実現する低リスクでの海外生産拠点化">
             </div>
             <div class="c-link-btn c-link-btn--detail pb">
-                <a href="<?php echo esc_url(home_url('/category/news')); ?>">
+                <a href="<?php echo esc_url(home_url('global')); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/public/images/detail-btn-navy.png" alt="詳しく見る">
                 </a>
             </div>
