@@ -38,7 +38,6 @@
         width: calc(100% / 3);
         color: #1E2C59;
         @include mq(lg) {
-            
             padding-left: 30px;
         }
         @include mq(sm) {
@@ -52,7 +51,7 @@
                 padding-left: 0;
                 padding-right: 0;
             }
-        } 
+        }
     }
 }
 
@@ -111,7 +110,6 @@
     &__content {
         padding: 30px;
         background: #e7e7e7;
-
         p {
             margin: 0;
             @include mq(lg) {
@@ -143,8 +141,37 @@
         @include mq(lg) {
             padding: 15px;
         }
+        h2 {
+            font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+            margin: 77px 0 0;
+            padding: 15px;
+            background: $red;
+            font-size: 24px;
+            text-align: center;
+            color: #fff;
+            font-weight: normal;
+            width: calc(100% + 60px);
+            position: relative;
+            left: -30px;
+            @include mq(lg) {
+                width: calc(100% + 30px);
+                font-size: 18px;
+                left: -15px;
+            }
+            &:before {
+                content: '';
+                position: absolute;
+                top: -40px;
+                left: -15px;
+                display: block;
+                width: calc(100% + 30px);
+                height: 40px;
+                background: #fff;
+            }
+        }
         p {
             line-height: 1.6;
+            text-align: justify;
         }
     }
 }

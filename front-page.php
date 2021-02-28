@@ -77,7 +77,7 @@
                     <?php endforeach; ?>
                 <?php else : ?>
                     <div class="article-not-found">
-                        <p>記事はまだありません。</p>
+                        <p>製品はまだありません。</p>
                     </div>
                 <?php endif;
                 wp_reset_postdata();

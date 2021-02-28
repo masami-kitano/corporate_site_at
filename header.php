@@ -16,7 +16,7 @@
             <div class="l-header__link flex">
                 <div class="l-header__link-item l-header__lang flex pc">
                     <img src="<?php echo get_template_directory_uri(); ?>/public/images/language-mark.png">
-                    <div class="lang">日本語 &dtrif;</div>
+                    <a href="http://www.arktech.co.jp/english/" class="lang">English &dtrif;</a>
                 </div>
                 <div class="l-header__link-item l-header__info flex pc">
                     <img src="<?php echo get_template_directory_uri(); ?>/public/images/tell-mark.png">
@@ -33,7 +33,7 @@
                 </div>
                 <div class="l-header__sp-lang">
                     <img src="<?php echo get_template_directory_uri(); ?>/public/images/language-mark.png">
-                    <div class="lang">EN</div>
+                    <a href="http://www.arktech.co.jp/english/" class="lang">EN</a>
                 </div>
             </div>
         </div>

@@ -30,7 +30,7 @@
                 <ul class="l-footer-menu__list l-footer-menu__list--bottom">
                     <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('category/news')); ?>" class="l-footer-menu__link">新着情報</a></li>
                     <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('contact')); ?>" class="l-footer-menu__link">お問い合わせ</a></li>
-                    <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('form')); ?>" class="l-footer-menu__link">見積もり専用フォーム</a></li>
+                    <li class="l-footer-menu__item"><a class="l-footer-menu__link">見積もり専用フォーム</a></li>
                     <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('sitemap')); ?>" class="l-footer-menu__link">サイトマップ</a></li>
                     <li class="l-footer-menu__item"><a href="<?php echo esc_url(home_url('policy')); ?>" class="l-footer-menu__link">プライバシーポリシー</a></li>
                 </ul>

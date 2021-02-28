@@ -6,6 +6,10 @@
         @include mq(lg) {
             font-size: 14px;
         }
+        @include mq(xs) {
+            padding: 10px;
+            font-size: 12px;
+        }
     }
     th {
         width: 142px;

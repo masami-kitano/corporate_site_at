@@ -390,8 +390,8 @@
                 <tr>
                     <th>URL</th>
                     <td>
-                        <p><a href="http://www.arktech.co.jp/ph/">〔英語版〕</a></p>
-                        <P><a href="http://www.arktech.co.jp/">〔日本語版〕</a></p>
+                        <p>〔英語版〕　http://www.arktech.co.jp/ph/</p>
+                        <P>〔日本語版〕　http://www.arktech.co.jp/ph-japan/</p>
                     </td>
                 </tr>
                 <tr>
